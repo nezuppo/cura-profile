@@ -7,7 +7,7 @@ SETTING_3:
     [general]
     version = 4
     name = Fine #2
-    definition = fdmprinter
+    definition = custom
 
     [metadata]
     position = 0
@@ -15,6 +15,7 @@ SETTING_3:
     quality_type = normal
 
     [values]
+    skirt_line_count = 10
 
   - |+
     [general]
@@ -118,6 +119,7 @@ SETTING_3:
     quality_type = normal
 
     [values]
+    adhesion_type = skirt
     layer_height_0 = 0.15
 
 ...
