@@ -1,0 +1,123 @@
+X-Generator: Cura_SteamEngine 4.4.1
+Content-Type: application/x-yaml
+
+SETTING_3:
+  extruder_quality:
+  - |+
+    [general]
+    version = 4
+    name = Fine #2
+    definition = fdmprinter
+
+    [metadata]
+    position = 0
+    type = quality_changes
+    quality_type = normal
+
+    [values]
+
+  - |+
+    [general]
+    version = 4
+    name = Fine #2
+    definition = fdmprinter
+
+    [metadata]
+    position = 1
+    type = quality_changes
+    quality_type = normal
+
+    [values]
+
+  - |+
+    [general]
+    version = 4
+    name = Fine #2
+    definition = fdmprinter
+
+    [metadata]
+    position = 2
+    type = quality_changes
+    quality_type = normal
+
+    [values]
+
+  - |+
+    [general]
+    version = 4
+    name = Fine #2
+    definition = fdmprinter
+
+    [metadata]
+    position = 3
+    type = quality_changes
+    quality_type = normal
+
+    [values]
+
+  - |+
+    [general]
+    version = 4
+    name = Fine #2
+    definition = fdmprinter
+
+    [metadata]
+    position = 4
+    type = quality_changes
+    quality_type = normal
+
+    [values]
+
+  - |+
+    [general]
+    version = 4
+    name = Fine #2
+    definition = fdmprinter
+
+    [metadata]
+    position = 5
+    type = quality_changes
+    quality_type = normal
+
+    [values]
+
+  - |+
+    [general]
+    version = 4
+    name = Fine #2
+    definition = fdmprinter
+
+    [metadata]
+    position = 6
+    type = quality_changes
+    quality_type = normal
+
+    [values]
+
+  - |+
+    [general]
+    version = 4
+    name = Fine #2
+    definition = fdmprinter
+
+    [metadata]
+    position = 7
+    type = quality_changes
+    quality_type = normal
+
+    [values]
+
+  global_quality: |+
+    [general]
+    version = 4
+    name = Fine #2
+    definition = custom
+
+    [metadata]
+    type = quality_changes
+    quality_type = normal
+
+    [values]
+    layer_height_0 = 0.15
+
+...
