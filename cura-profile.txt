@@ -3,123 +3,87 @@ Content-Type: application/x-yaml
 
 SETTING_3:
   extruder_quality:
-  - |+
-    [general]
-    version = 4
-    name = Fine #2
-    definition = custom
-
-    [metadata]
-    position = 0
-    type = quality_changes
-    quality_type = normal
-
-    [values]
-    skirt_line_count = 10
-
-  - |+
-    [general]
-    version = 4
-    name = Fine #2
-    definition = fdmprinter
-
-    [metadata]
-    position = 1
-    type = quality_changes
-    quality_type = normal
-
-    [values]
-
-  - |+
-    [general]
-    version = 4
-    name = Fine #2
-    definition = fdmprinter
-
-    [metadata]
-    position = 2
-    type = quality_changes
-    quality_type = normal
-
-    [values]
-
-  - |+
-    [general]
-    version = 4
-    name = Fine #2
-    definition = fdmprinter
-
-    [metadata]
-    position = 3
-    type = quality_changes
-    quality_type = normal
-
-    [values]
-
-  - |+
-    [general]
-    version = 4
-    name = Fine #2
-    definition = fdmprinter
-
-    [metadata]
-    position = 4
-    type = quality_changes
-    quality_type = normal
-
-    [values]
-
-  - |+
-    [general]
-    version = 4
-    name = Fine #2
-    definition = fdmprinter
-
-    [metadata]
-    position = 5
-    type = quality_changes
-    quality_type = normal
-
-    [values]
-
-  - |+
-    [general]
-    version = 4
-    name = Fine #2
-    definition = fdmprinter
-
-    [metadata]
-    position = 6
-    type = quality_changes
-    quality_type = normal
-
-    [values]
-
-  - |+
-    [general]
-    version = 4
-    name = Fine #2
-    definition = fdmprinter
-
-    [metadata]
-    position = 7
-    type = quality_changes
-    quality_type = normal
-
-    [values]
-
-  global_quality: |+
-    [general]
-    version = 4
-    name = Fine #2
-    definition = custom
-
-    [metadata]
-    type = quality_changes
-    quality_type = normal
-
-    [values]
-    adhesion_type = skirt
-    layer_height_0 = 0.15
-
-...
+  - general:
+      definition: custom
+      name: 'Fine #2'
+      version: '4'
+    metadata:
+      position: '0'
+      quality_type: normal
+      type: quality_changes
+    values:
+      skirt_line_count: '10'
+  - general:
+      definition: fdmprinter
+      name: 'Fine #2'
+      version: '4'
+    metadata:
+      position: '1'
+      quality_type: normal
+      type: quality_changes
+    values: {}
+  - general:
+      definition: fdmprinter
+      name: 'Fine #2'
+      version: '4'
+    metadata:
+      position: '2'
+      quality_type: normal
+      type: quality_changes
+    values: {}
+  - general:
+      definition: fdmprinter
+      name: 'Fine #2'
+      version: '4'
+    metadata:
+      position: '3'
+      quality_type: normal
+      type: quality_changes
+    values: {}
+  - general:
+      definition: fdmprinter
+      name: 'Fine #2'
+      version: '4'
+    metadata:
+      position: '4'
+      quality_type: normal
+      type: quality_changes
+    values: {}
+  - general:
+      definition: fdmprinter
+      name: 'Fine #2'
+      version: '4'
+    metadata:
+      position: '5'
+      quality_type: normal
+      type: quality_changes
+    values: {}
+  - general:
+      definition: fdmprinter
+      name: 'Fine #2'
+      version: '4'
+    metadata:
+      position: '6'
+      quality_type: normal
+      type: quality_changes
+    values: {}
+  - general:
+      definition: fdmprinter
+      name: 'Fine #2'
+      version: '4'
+    metadata:
+      position: '7'
+      quality_type: normal
+      type: quality_changes
+    values: {}
+  global_quality:
+    general:
+      definition: custom
+      name: 'Fine #2'
+      version: '4'
+    metadata:
+      quality_type: normal
+      type: quality_changes
+    values:
+      adhesion_type: skirt
+      layer_height_0: '0.15'
