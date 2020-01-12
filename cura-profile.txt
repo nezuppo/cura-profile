@@ -13,6 +13,9 @@ SETTING_3:
       type: quality_changes
     values:
       skirt_line_count: '10'
+      support_roof_density: '75'
+      support_roof_enable: 'True'
+      support_top_distance: '0.08'
   - general:
       definition: fdmprinter
       name: 'Fine #2'
@@ -87,3 +90,4 @@ SETTING_3:
     values:
       adhesion_type: skirt
       layer_height_0: '0.15'
+      support_enable: 'True'
