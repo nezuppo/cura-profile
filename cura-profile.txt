@@ -87,3 +87,4 @@ SETTING_3:
     values:
       adhesion_type: skirt
       layer_height_0: '0.15'
+      retraction_combing: noskin
