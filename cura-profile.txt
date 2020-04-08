@@ -13,7 +13,7 @@ SETTING_3:
       type: quality_changes
     values:
       skirt_line_count: '10'
-      support_roof_density: '50'
+      support_roof_density: '75'
       support_roof_enable: 'True'
       support_top_distance: '0.11'
   - general:
