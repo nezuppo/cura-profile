@@ -12,7 +12,8 @@ SETTING_3:
       quality_type: normal
       type: quality_changes
     values:
-      skirt_line_count: '10'
+      brim_width: '8'
+      skirt_line_count: '5'
       support_roof_density: '75'
       support_roof_enable: 'True'
       support_top_distance: '0.11'
@@ -89,6 +90,8 @@ SETTING_3:
       type: quality_changes
     values:
       adhesion_type: skirt
-      layer_height_0: '0.15'
+      layer_height: '0.2'
+      layer_height_0: '0.2'
       retraction_combing: noskin
       support_enable: 'True'
+      support_type: everywhere
