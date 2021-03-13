@@ -93,5 +93,4 @@ SETTING_3:
       layer_height: '0.2'
       layer_height_0: '0.2'
       retraction_combing: noskin
-      support_enable: 'True'
-      support_type: everywhere
+      support_type: buildplate
